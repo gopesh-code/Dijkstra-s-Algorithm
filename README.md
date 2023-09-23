@@ -22,14 +22,13 @@ To get started with this visualization tool, you'll need to have Python and the 
 1. **Clone the Repository:** You can clone this repository using Git:
 
    ```bash
-   git clone https://github.com/your-username/dijkstra-visualization.git
-   cd dijkstra-visualization
+   git clone https://github.com/gopesh-code/dijkstra-s-algorithm.git
+   cd dijkstra-s-algorithm
    ```
 
 2. **Install Dependencies:** Make sure you have Pygame installed. If you don't have it, you can install it using pip:
 
    ```bash
-   Copy code
    pip install pygame
    ```
 
@@ -38,8 +37,7 @@ To get started with this visualization tool, you'll need to have Python and the 
 1. **Run the Application:**
 
    ```bash
-   Copy code
-   python main.py
+   python dijkstra.py
    ```
 
 2. **Creating the Grid:**
