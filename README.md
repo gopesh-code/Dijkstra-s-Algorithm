@@ -28,49 +28,53 @@ To get started with this visualization tool, you'll need to have Python and the 
 
 2. **Install Dependencies:** Make sure you have Pygame installed. If you don't have it, you can install it using pip:
 
- ```bash
+   ```bash
    Copy code
    pip install pygame
-   Usage
-   Run the Application:
+   ```
 
-bash
-Copy code
-python main.py
-Creating the Grid:
+## Usage
+   
+1. **Run the Application:**
 
-Left-click on a box to mark it as an obstacle (wall).
-Right-click on a box to set it as the target node.
-Starting the Algorithm:
+   ```bash
+   Copy code
+   python main.py
+   ```
 
-After setting the target node, press any key to start the Dijkstra's algorithm.
-Visualizing the Algorithm:
+2. **Creating the Grid:**
+   - Left-click on a box to mark it as an obstacle (wall).
+   - Right-click on a box to set it as the target node.
 
-The algorithm will find the shortest path from the start node (top-left) to the target node (right-clicked).
-Visited nodes will be shown in green, and the shortest path will be displayed in blue.
-If there's no path to the target node, a message box will appear.
-Controls
-Left Mouse Button: Mark a box as a wall (obstacle).
-Right Mouse Button: Set a box as the target node.
-Any Key: Start the Dijkstra's algorithm after setting the target node.
-Close Button (X): Close the application.
-Features
-Interactive Visualization: You can interactively create a grid, set obstacles, and observe the algorithm's progress.
-Visualization of Shortest Path: The shortest path from the start node to the target node is displayed in blue.
-Message Box for No Solution: If there's no path to the target node, a message box will appear.
-Customizable Grid: You can easily change the grid size by modifying the columns and rows variables in the code.
-Contributing
+3. **Starting the Algorithm:**
+   - After setting the target node, press any key to start the Dijkstra's algorithm.
+
+4. **Visualizing the Algorithm:**
+   - The algorithm will find the shortest path from the start node (top-left) to the target node (right-clicked).
+   - Visited nodes will be shown in green, and the shortest path will be displayed in blue.
+   - If there's no path to the target node, a message box will appear.
+
+## Controls
+- **Left Mouse Button:** Mark a box as a wall (obstacle).
+- **Right Mouse Button:** Set a box as the target node.
+- **Any Key:** Start the Dijkstra's algorithm after setting the target node.
+- **Close Button (X):** Close the application.
+
+## Features
+- **Interactive Visualization:** You can interactively create a grid, set obstacles, and observe the algorithm's progress.
+- **Visualization of Shortest Path:** The shortest path from the start node to the target node is displayed in blue.
+- **Message Box for No Solution:** If there's no path to the target node, a message box will appear.
+- **Customizable Grid:** You can easily change the grid size by modifying the columns and rows variables in the code.
+
+## Contributing
 Contributions to this project are welcome! If you'd like to contribute, please follow these steps:
 
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Make your changes and commit them.
-Push your changes to your fork.
-Create a pull request to the main repository.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+   1. Fork the repository.
+   2. Create a new branch for your feature or bug fix.
+   3. Make your changes and commit them.
+   4. Push your changes to your fork.
+   5. Create a pull request to the main repository.
 
-sql
-Copy code
+## License
+This project is licensed under the MIT License - see the **LICENSE** file for details.
 
-Feel free to make any adjustments or add more information to the README.md fil
